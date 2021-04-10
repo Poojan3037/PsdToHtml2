@@ -1,0 +1,446 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Lato:ital,wght@0,400;1,300&display=swap');
+.container{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+      
+}
+
+
+
+/* <!-- NAVBAR START --> */
+
+.bg-nav{
+    background-color: #2a212a !important;
+}
+
+.nav-link{
+    margin-left: 30px !important;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: white !important;
+
+}
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2%;
+    top: 100%;
+    background: white;
+    transition: all 1s linear;
+}
+
+.nav-link:hover::before{
+    width: 100%;
+}
+
+input[type="search"]{
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+
+
+/* <!--/// NAVBAR END/// --> */
+
+
+
+
+
+
+
+/* <!-- HEADER STATRT --> */
+.header{
+    background-image: url("pics/header_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 790px;
+}
+
+.header-box{
+    width: 500px;
+    height: 260px;
+    text-align: right;
+}
+
+.bg-h{
+    font-size: 50px;
+}
+
+.bg-p{
+    font-size: 16px;
+    color: #d8d9dc;
+}
+
+.header-btn{
+    margin: 55px 0px 15px 0px;
+    width: 255px;
+    height: 60px;
+    border-radius: 32px;
+    border: 0;
+    outline: 0;
+    background-color: #8824cd;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s linear;
+}
+
+.header-btn:hover{
+    background-color: #d8586d;
+}
+/* <!-- ///HEADER END/// --> */ 
+
+
+
+
+
+
+/* <!-- FEATURES START --> */
+
+.features{
+    height: 510px;
+    background-color:#2e3b4e;
+}
+
+/* .features-box{
+    height: 300px;
+} */
+
+.bg-h4{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.bg-p-m{
+    margin-top: 30px;
+}
+
+.features-content2{
+    margin-top: 55px !important;
+}
+
+
+/* <!--/// FEATURES END/// --> */
+
+
+
+
+
+
+
+
+/* <!-- PINK START --> */
+
+.pink{
+    height: 540px;
+    background-image: url("pics/pink-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pink-box{
+    height: 200px;
+}
+
+.pink-btn{
+    width: 340px;
+    height: 60px;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    color: #d8586d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: all 0.5s linear;
+}
+
+.pink-btn:hover{
+    color: white;
+    background-color: #2e3b4e;
+    
+}
+/* <!-- ///PINK END/// --> */
+
+
+
+
+
+/* <!-- AbOUT START --> */
+.about{
+    height: 495px;
+    overflow: hidden;
+}
+
+.about-pic{
+    background-image:url("pics/write.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 495px;
+    
+}
+
+.about-content{
+    height: 270px;
+    width: 660px;
+}
+
+/* <!-- ///ABOUT END/// --> */
+
+
+
+
+
+
+
+/* <!-- BASE START --> */
+.base-main{
+    position: relative;
+}
+
+.base{
+    width: 100%;
+    height: 550px;
+    background-image: url("pics/Pex-Recovered.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale();
+    position: relative;
+}
+
+.base-box{
+    background-image: url("pics/base.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 460px;
+    width: 100%;
+    top:90px;
+}
+
+
+.base-btn{
+    margin-top: 0px;
+}
+/* <!-- ///BASE END/// --> */
+
+
+
+
+
+/* <!-- Article start--> */
+
+.article{
+    height: 670px;
+    background-image: url("pics/article.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.article-box{
+    height: 180px;
+    margin-top: 360px !important;
+}
+
+.photo-btn{
+    width: 120px;
+    height: 30px;
+    border: 2px solid white;
+    outline: 0;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    font-size: 13px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s linear;
+}
+
+.photo-btn:hover{
+    background-color: white;
+    color:#d8586d;
+}
+/* <!-- ///Article End///--> */
+
+
+
+
+
+
+/* <!-- AbOUT2 START --> */
+.about2{
+    height: 520px;
+    overflow: hidden;
+}
+
+.about2-pic{
+    background-image: url("pics/hand.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 520px;
+}
+/* <!-- ///ABOUT END/// --> */
+
+
+
+
+
+
+
+
+
+/* <!-- FOOTER --> */
+.footer{
+    height: 455px;
+    background-color: #e7526b;
+}
+
+.footer-box{ 
+    width: 400px;
+    height: 170px;
+}
+
+.footer-content{
+    margin-top:90px !important ;
+}
+/* <!-- FOOTER END --> */
+
+
+
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width:640px) and (min-width:300px) {
+    /* <!-- NAVBAR START --> */
+
+    .nav-link{
+        text-align: center !important;
+    }
+
+    .nav-link:hover::before{
+        width: 0%;
+    }
+
+
+
+    /* <!-- HEADER STATRT --> */
+    .header{
+        height: auto;
+    }
+
+    .header-box{
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    
+
+
+    
+    /* <!-- FEATURES START --> */
+    .features{
+        height: auto;
+    }
+
+    .header-box{
+        height: auto;
+    }
+
+
+    .features-content{
+        margin-top: 30px !important;
+    }
+
+    .features-content2{
+        margin-top: 30px !important;
+    }
+
+
+
+    /* PINK START */
+    .pink{
+        height: auto;
+    }
+
+    .pink-box{
+        height: auto;
+    }
+
+    .pink-content{
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+
+
+    /* <!-- ABOUT START --> */
+    .about{
+        height: auto;
+    }
+
+    .about-pic{
+        height: 50vh;
+    }
+
+    .about-content{
+        height: auto;
+        padding: 15px;
+    }
+
+
+
+    /* <!-- Article start--> */
+    .article{
+        height: auto;
+    }
+
+    .article-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+
+
+    /* <!-- ABOUT2 START --> */
+
+    .about2{
+        height: auto;
+    }
+
+    .about2-pic{
+        height: 50vh;
+    }
+
+    .about2-content{
+        height: auto;
+        padding: 15px;
+    }
+
+
+
+
+
+}
