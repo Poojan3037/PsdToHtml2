@@ -440,6 +440,122 @@ input[type="search"]{
     }
 
 
+}
+
+
+
+
+
+
+/* Tablet RESPONSIVE */
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    /* <!-- NAVBAR START --> */
+
+    .nav-link{
+        text-align: center !important;
+    }
+
+    .nav-link:hover::before{
+        width: 0%;
+    }
+
+
+
+    /* <!-- HEADER STATRT --> */
+    .header{
+        height: auto;
+    }
+
+    .header-box{
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    
+
+
+    
+    /* <!-- FEATURES START --> */
+    .features{
+        height: auto;
+    }
+
+    .header-box{
+        height: auto;
+    }
+
+
+    .features-content{
+        margin-top: 30px !important;
+    }
+
+    .features-content2{
+        margin-top: 30px !important;
+    }
+
+
+
+    /* PINK START */
+    .pink{
+        height: auto;
+    }
+
+    .pink-box{
+        height: auto;
+    }
+
+    .pink-content{
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+
+
+    /* <!-- ABOUT START --> */
+    .about{
+        height: auto;
+    }
+
+    .about-pic{
+        height: 50vh;
+    }
+
+    .about-content{
+        height: auto;
+        padding: 15px;
+    }
+
+
+
+    /* <!-- Article start--> */
+    .article{
+        height: auto;
+    }
+
+    .article-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+
+
+    /* <!-- ABOUT2 START --> */
+
+    .about2{
+        height: auto;
+    }
+
+    .about2-pic{
+        height: 50vh;
+    }
+
+    .about2-content{
+        height: auto;
+        padding: 15px;
+    }
+
+
 
 
 
